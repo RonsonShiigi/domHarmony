@@ -29,17 +29,25 @@ wanting.id="wants";
 wanting.innerHTML="Looking for a Mrs. Mcdonald";
 data.appendChild(wanting);
 //9. In the div id profile section, create a paragraph element with an id of pro2 and create a your own profile for Ronald (at least 2 sentences).
-
+var profileBox = document.createElement('p');
+profileBox.id= "pro2"
+profileBox.innerHTML = "I love to eat cheeseburgers and fries.  Maybe I'll make you an ice cream cone.";
+profile.appendChild(profileBox);
 //10. In the div id matches section, target the first div element with the class name of firstName and change Name to Wendy.
+var matchMaker = document.getElementsByClassName('firstName');
 
-//11. In the div id matches section, target the first div element with the class name of otherAge and change Age to 48.
+matchMaker[0].innerHTML= "Wendy";
+//11. In the div id matches section, target the first div element with the class name of otherAge and change Age to 48. 
+var older = document.getElementsByClassName('otherAge');
+older[0].innerHTML = 48;
 
 //12. In the div id matches section, target the first div element with the class name of status and change Status to Single Mother.
-
+var statusMom = document.getElementsByClassName('status');
+statusMom[0].innerHTML ="Single Mother";
 //13. In the div id matches section, target the second div element with the class name of firstName and change Name to Peko Chan.
-
+matchMaker[1].innerHTML="Peko Chan";
 //14. In the div id matches section, target the second div element with the class name of otherAge and change Age to 68.
-
+older[1].innerHTML=68;
  //Final Boss Create your own profile into the page:
  //change image to match your profile
  //div with class name of firstName
