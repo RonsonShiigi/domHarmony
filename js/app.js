@@ -56,5 +56,10 @@ older[1].innerHTML=68;
  //div with class anem of Motto
 
 
+const firstName = document.getElementsByClassName('firstName');
+firstName[2].innerHTML='Professor Dumbledore';
+older[2].innerHTML=150;
+statusMom[2].innerHTML='OLD';
 
-
+const motto = document.getElementsByClassName('motto');
+motto[2].innerHTML='One can never have enough socks';
